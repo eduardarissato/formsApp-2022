@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <div>
+      <ion-list>
+        <ion-item>
+          <ion-label type="email">Email: </ion-label>
+          <ion-input placeholder="insira seu email"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Senha: </ion-label>
+          <ion-input placeholder="insira sua senha" type="password"></ion-input>
+        </ion-item>
+
+        <ion-label>
+          <a href="" class="ion-justify-content-end">Esqueceu sua a senha?</a>
+        </ion-label>
+      </ion-list>
+
+
+
+      <div>
+        <ion-grid>
+          <ion-row class="ion-justify-content-around">
+            <ion-col ize="12" size-sm>
+
+              <ion-button routerLink="/tabs/tab1">
+                <ion-icon name="return-up-back-outline"></ion-icon> Voltar
+              </ion-button>
+              <ion-button routerLink="/registro">
+                <ion-icon name="add-circle-outline"></ion-icon> Registrar
+              </ion-button>
+              <ion-button routerLink="/tabs/tab2">
+                <ion-icon name="log-out-outline"></ion-icon> Entrar
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+    </div>
+  </ion-card>
+</ion-content>

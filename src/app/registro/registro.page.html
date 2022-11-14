@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      <ion-icon name="person-add-outline"></ion-icon> Registro
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="ion-border">
+    <div>
+      <ion-list>
+        <ion-item>
+          <ion-label type="name">Nome: </ion-label>
+          <ion-input placeholder="insira seu nome"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label type="">CPF: </ion-label>
+          <ion-input placeholder="XXX-XXX-XXX-XX"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label type="email">Email: </ion-label>
+          <ion-input placeholder="insira seu email"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Senha: </ion-label>
+          <ion-input placeholder="insira sua senha" type="password"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Confirmar senha: </ion-label>
+          <ion-input placeholder="insira sua senha" type="password"></ion-input>
+        </ion-item>
+      </ion-list>
+      <hr>
+      <div class="ion-justify-content-around">
+        <ion-grid>
+          <ion-row>
+            <ion-col>
+              <ion-button routerLink="/tabs/tab1">
+                <ion-icon name="return-up-back-outline"></ion-icon> Voltar
+              </ion-button>
+              <ion-button color="success" routerLink="/tabs/tab1">
+                <ion-icon name="checkmark-outline"></ion-icon> Salvar
+              </ion-button>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </div>
+    </div>
+  </ion-card>
+</ion-content>
